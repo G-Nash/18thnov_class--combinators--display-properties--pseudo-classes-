@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+#heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content > p{
+    text-decoration: underline;
+}
+
