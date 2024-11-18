@@ -13,3 +13,42 @@ body{
     text-decoration: underline;
 }
 
+#hvr{
+    border: solid green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+}
+
+#hvr:hover>p{
+    color: red;
+}
+
+#clrbx{
+    margin-top: 30px;
+    border: solid white;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+#green:hover~#clrbx{
+    background-color: green;
+}
+
+#red:hover~#clrbx{
+    background-color: red;
+}
+
+#cyan:hover~#clrbx{
+    background-color: teal;
+}
+
+#aqua:hover~#clrbx{
+    background-color: aqua;
+}
+
+#green, #red, #cyan, #aqua{
+    display: inline;
+}
